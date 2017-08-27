@@ -1,0 +1,6 @@
+"0","data(""shdSeries2014"")"
+"0","#Extract the temporal basis functions "
+"0","result=sptemExp::getTBasisFun(shdSeries2014,""siteid"",""date"",""obs"",df=8,n.basis=2)"
+"0","#Plot the results "
+"0","par(mfrow=c(1,2),mar=c(4,4,1,1))"
+"0","plot(result$date,result$pv1,type=""l"",xlab=""Date"",ylab=""1st Temporal Basis Function"")"

@@ -1,0 +1,4 @@
+"0","#Check the performance of everty model"
+"0","mfile=paste(dPath,""/models/t_"",tids[1],""_metrics.csv"",sep="""")"
+"0","models_metrics=read.csv(mfile,row.names = NULL)"
+"0","knitr::kable(models_metrics,caption=""Performance of every model by bootstrap aggregation"")"

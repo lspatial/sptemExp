@@ -1,0 +1,8 @@
+"0","data(""spointspre"",""countylayer"")"
+"0","tarF=""d91"" # target variable to be kriged "
+"0","regionName=""NAME_3"""
+"0","bkRes=sptemExp::getTidBKMean(spointspre,countylayer,regionName,tarF,2)"
+"1","[1]"
+"1"," ""pcores:2"""
+"1","
+"

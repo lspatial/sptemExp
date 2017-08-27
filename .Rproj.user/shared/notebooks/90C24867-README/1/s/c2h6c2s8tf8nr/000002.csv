@@ -1,0 +1,5 @@
+"0","data(""samplepnt"",""prnside"")"
+"0","x=samplepnt"
+"0","sidepoly=prnside"
+"0","par(mar=c(1,1,1,1))"
+"0","tpoly=sptemExp::tpolygonsByBorder(x,sidepoly)$tpolys"

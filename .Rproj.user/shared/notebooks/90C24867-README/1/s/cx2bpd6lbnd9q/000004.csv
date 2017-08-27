@@ -1,0 +1,4 @@
+"0","#Check the total performance  "
+"0","mtfile=paste(dPath,""/models/t_"",tids[1],""_total_metric.csv"",sep="""")"
+"0","t_metrics=read.csv(mtfile,row.names = NULL)"
+"0","knitr::kable(t_metrics,caption=""Total performance by  bootstrap aggregation"")"

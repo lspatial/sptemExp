@@ -1,0 +1,7 @@
+"0","# The output from the above step has bkm_fill is the regional kriged estimate.  "
+"0","bkRes=bkRes[!is.na(bkRes$bkm_fill),]"
+"0","levels=c(30,60,100,150,250)"
+"0","cr=sptemExp::colorGrinf(bkRes$bkm_fill,levels,colors=c(""darkgreen"",""yellow"",""darkred""))"
+"0","par(mar=c(1,1,1,1))"
+"0","title=expression(""Regional Block Kriged PM""[2.5]*"" Concentration Estimated"")"
+"0","raster::plot(bkRes,col =cr$cols[cr$index],main=title)"

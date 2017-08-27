@@ -1,0 +1,4 @@
+"0","nc4File=file.path(system.file(package = ""sptemExp""), ""extdata"", ""ancdata.nc4"")"
+"0","ncin0=ncdf4::nc_open(nc4File)"
+"0","extRes=sptemExp::extractVNC4(samplepnt,ncin0,""TLML"")"
+"0","raster::plot(extRes$img)"

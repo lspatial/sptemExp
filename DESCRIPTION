@@ -1,0 +1,27 @@
+Package: sptemExp
+Type: Package
+Title: Ensemble Spatiotemporal Mixed Models for Exposure Estimation
+Version: 0.1.0
+Author: Lianfa Li
+Maintainer: Lianfa Li <lspatial@gmail.com>
+Description: The approach of ensemble spatiotemporal mixed models is to make reliable estimation of air pollutant concentrations at high resolutions.
+    This package is an ensemble spatiotemporal modeling tool with constrained optimization and also provides the functionality of grid mapping of air pollutants.
+    Specifically, it includes the following functionality: 
+    (1) Extraction of covariates from the satellite images such as GeoTiff and NC4 raster (e.g NDVI, AOD, and meteorological parameters);
+    (2) Generation of temporal basis functions to simulate the seasonal trends in the study regions;
+    (3) Generation of the regional monthly or yearly means of air pollutant concentration;
+    (4) Generation of Thiessen polygons and spatial effect modeling;
+    (5) Ensemble modeling for spatiotemporal mixed models, supporting multi-core parallel computing;
+    (6) Integrated predictions with or without weights of the model's performance, supporting multi-core parallel computing;
+    (7) Constrained optimization to interpolate the missing values; 
+    (8) Generation of the grid surfaces of air pollutant concentrations at high resolution;
+    (9) Block kriging for regional mean estimation at multiple scales.
+Depends: R (>= 2.14)
+Imports: Rcpp (>= 0.12.12),RcppEigen (>= 0.3.3.3.0),methods, rgdal, raster,deldir, SpatioTemporal,plyr,sp,limSolve, R2BayesX,BayesX,BayesXsrc,ncdf4, bcv, rgeos, splines, parallel, foreach,doParallel,automap
+LinkingTo: Rcpp, RcppEigen
+SystemRequirements: C++11
+License: GPL
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+RoxygenNote: 6.0.1

@@ -1,0 +1,2 @@
+"0","result=sptemExp::weiA2Ens(prePath,mfile,metrF=""rmse"",""pre"",""gid"",""gid"")"
+"0","knitr::kable(result[c(1:5),],caption=""Predicted result"")"

@@ -1,0 +1,10 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : true,
+        "filePatterns" : [
+        ],
+        "path" : "~/RWkspace/sptemExp/R",
+        "query" : "spoints_pre",
+        "regex" : false
+    }
+}
