@@ -1,7 +1,7 @@
 \name{getPolyMMean}
 \alias{getPolyMMean}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Generation of Regional Monthly Mean based on the input Polygons }
+\title{Generation of Regional Monthly Mean Based on the Input Polygons }
 \description{
   Generate the regional monthly mean of air pollutant concentrations based on the input polygons
 }

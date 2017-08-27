@@ -13,13 +13,6 @@ extractVTIF(tarshp, tifRaster)
 }
 \value{ values for extracted. Format: \code{vector}}
 
-\examples{
-
-data("gtifRst","samplepnt")
-tvals=extractVTIF(samplepnt,gtifRst)
-tvals
-
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")

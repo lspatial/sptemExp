@@ -1,6 +1,6 @@
 \name{tpolygonsByBorder}
 \alias{tpolygonsByBorder}
-\title{tpolygonsByBorder for generation of Thiessen polygons}
+\title{tpolygonsByBorder for Generation of Thiessen polygons}
 \description{
 Generate Thiessen polygons according to the point spatialframes and border.
 }

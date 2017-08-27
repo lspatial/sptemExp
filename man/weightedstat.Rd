@@ -1,6 +1,6 @@
 \name{weightedstat}
 \alias{weightedstat}
-\title{Hello, weightedstat!}
+\title{Weighted Average for Multiple Models}
 \usage{
   weightedstat(path,modelpath,metric,preStr, idStr,dateStr)
 }

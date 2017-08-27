@@ -1,6 +1,6 @@
 \name{getRidbytpoly}
 \alias{getRidbytpoly}
-\title{getRidbytpoly for assign Thiessen polygon id to point object}
+\title{getRidbytpoly for Assignment of  Thiessen polygon id to point object}
 \description{
 Assign the polygon id to the data points.
 }

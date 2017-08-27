@@ -2,7 +2,7 @@
 \alias{noweiAvg}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Averages over the Ensemble Predictions of Mixed Models
+Averages over the Ensemble Predictions of Mixed Models (No weighted)
 }
 \description{
  Average and standard deviation of multiple models by ensemble learning.
@@ -28,21 +28,21 @@ Lianfa Li: \email{lspatial@gmail.com}
 
 # Generate the prediction dataset, but you can use parATimePredict function
 # to make the prediction in application
+
 dPath=tempdir()
-unlink(dPath,recursive = TRUE,force=TRUE)
-dPath=tempdir()
-if(!dir.exists(dPath))
-   dir.create(dPath)
+pPath=paste(dPath,"/preds",sep="")
+unlink(pPath, recursive=TRUE, force=TRUE)
+dir.create(pPath)
+
 
 nr=2000
 for(i in c(1:80)){ # i =1
-  print(i)
   dset=data.frame(gid=c(1:nr),rid=sample(c(1:30),size=nr,replace=TRUE))
   dset$pre=dset$gid\%\%80+rnorm(nr,mean=5,sd=9)+runif(nr,0,1)
-  afile=paste(dPath,"/m_",i,".csv",sep="")
+  afile=paste(pPath,"/m_",i,".csv",sep="")
   write.csv(dset,file=afile,row.names = FALSE)
 }
-result=noweiAvg(dPath, preStr="pre",idStr="gid",dateStr="gid")
+result=noweiAvg(pPath, preStr="pre",idStr="gid",dateStr="gid")
 
 
 }

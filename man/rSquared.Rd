@@ -1,7 +1,7 @@
 \name{rSquared}
 \alias{rSquared}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Coefficient of determination }
+\title{Coefficient of Determination }
 \description{A function to calculate the rSquared.}
 \usage{
 rSquared(obs, res)

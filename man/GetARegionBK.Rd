@@ -1,7 +1,7 @@
 \name{GetARegionBK}
 \alias{GetARegionBK}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Get a regional Kriging}
+\title{Get a Regional Kriging}
 \description{
    Estimate a regional mean for the regions.
 }

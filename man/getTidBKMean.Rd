@@ -1,6 +1,6 @@
 \name{getTidBKMean}
 \alias{getTidBKMean}
-\title{Batch block kriging for estimate of regional means}
+\title{Batch Block Kriging for Estimate of Regional Means}
 \description{ A batch program to implement block kriging for estimate of regional mean for air pollutant. Support the multi-core parallel computation. }
 \usage{
 getTidBKMean(spt,rlayer,regF="NAME_3",tarF="pre_mf",n=1)
